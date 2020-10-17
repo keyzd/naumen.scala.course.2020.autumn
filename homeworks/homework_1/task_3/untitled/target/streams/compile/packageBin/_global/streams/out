@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/keyzd/IdeaProjects/untitled/target/scala-2.13/untitled_2.13-0.1.jar ...[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	example[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/keyzd/IdeaProjects/untitled/target/scala-2.13/classes/example[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	example/Main$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/keyzd/IdeaProjects/untitled/target/scala-2.13/classes/example/Main$.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	example/Main.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/keyzd/IdeaProjects/untitled/target/scala-2.13/classes/example/Main.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	example/Main$delayedInit$body.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/keyzd/IdeaProjects/untitled/target/scala-2.13/classes/example/Main$delayedInit$body.class[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m[0J

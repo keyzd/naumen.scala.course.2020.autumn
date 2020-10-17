@@ -1,0 +1,23 @@
+~: scala
+Welcome to Scala 2.13.3-20200701-163819-unknown (OpenJDK 64-Bit Server VM, Java 14.0.2).
+Type in expressions for evaluation. Or try :help.
+
+scala> print("Hello Scala! This is Vova")
+Hello Scala! This is Vova
+scala> def sayHello(greeting: String, myName: String): Unit = {println(greeting+" Scala! This is "+myName)}
+def sayHello(greeting: String, myName: String): Unit
+
+scala> sayHello("Hi", "Vova")
+Hi Scala! This is Vova
+
+scala> sayHello("Zdarova", "Vova")
+Zdarova Scala! This is Vova
+
+scala> sayHello("Hi", "Vova".reverse)
+Hi Scala! This is avoV
+
+scala> sayHello("Zdarova", "Vova".reverse)
+Zdarova Scala! This is avoV
+
+scala>
+
