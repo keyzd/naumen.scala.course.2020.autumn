@@ -1,9 +1,7 @@
 import table._
 
 package cell {
-	trait Cell {
-		def toString(): String
-	}
+	trait Cell
 
 	class EmptyCell extends Cell {
 		override def toString(): String = "empty"
