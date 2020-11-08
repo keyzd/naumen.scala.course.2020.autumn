@@ -5,7 +5,7 @@ import cell._
 package table {
 	class Table(val width: Int, val height: Int) {
 		private var buffer = new ArrayBuffer[Cell](width*height)
-		var hashes = new ListBuffer[Int]
+		private var hashes = new ListBuffer[Int]
 
 		for(i <- 0 to width*height-1)
 			buffer.insert(i, new EmptyCell)
@@ -22,7 +22,14 @@ package table {
 				buffer(ix+iy*width) = cell
 		}
 
+		def addHash(hash: Int): Unit = hashes += hash
 		def dropHashes(): Unit = hashes = new ListBuffer[Int]
+		def hasHash(hash: Int): Boolean = {
+			if(hashes.indexOf(hash) == -1)
+				false
+			else
+				true
+		}
 	}
 
 }

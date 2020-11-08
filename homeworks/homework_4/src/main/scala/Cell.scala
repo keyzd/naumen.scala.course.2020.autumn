@@ -22,8 +22,8 @@ package cell {
 				if(ix >= table.width || iy >= table.height)
 					"outOfRange"
 				else {
-					if(table.hashes.indexOf(hash) == -1) {
-						table.hashes += hash
+					if(!table.hasHash(hash)) {
+						table.addHash(hash)
 						val nextCell = table.getCell(ix, iy).get
 						nextCell match {
 							case ref: ReferenceCell => ref.toString()
