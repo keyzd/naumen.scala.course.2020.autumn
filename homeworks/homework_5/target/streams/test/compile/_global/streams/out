@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0m/home/keyzd/dev/learn/scala/naumen.scala.course.2020.autumn/homeworks/homework_5/src/test/scala/Test.scala:18:15: value getNames is not a member of Exercises.Shelter[Exercises.Animal][0m
+[0m[[0m[31merror[0m] [0m[0m    assert(s4.getNames.toSet == Set("Garfield", "Goofy", "Kuzya"))[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/keyzd/dev/learn/scala/naumen.scala.course.2020.autumn/homeworks/homework_5/src/test/scala/Test.scala:22:15: value getNames is not a member of Exercises.Shelter[Exercises.Animal][0m
+[0m[[0m[31merror[0m] [0m[0m    assert(s5.getNames.toSet == Set("Garfield", "Barbos"))[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/keyzd/dev/learn/scala/naumen.scala.course.2020.autumn/homeworks/homework_5/src/test/scala/Test.scala:26:15: value getNames is not a member of Exercises.Shelter[Exercises.Dog][0m
+[0m[[0m[31merror[0m] [0m[0m    assert(s6.getNames.toSet == Set("Goofy", "Barbos"))[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m

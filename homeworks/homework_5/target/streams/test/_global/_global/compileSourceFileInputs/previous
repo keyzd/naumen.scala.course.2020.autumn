@@ -1,0 +1,1 @@
+["sbt.Task[scala.collection.immutable.Map[java.lang.String, scala.collection.Seq[scala.Tuple2[java.nio.file.Path, sbt.nio.FileStamp]]]]",{"2.12.10":{"hashes":[["/home/keyzd/dev/learn/scala/naumen.scala.course.2020.autumn/homeworks/homework_5/src/test/scala/Test.scala","7f8a46a1233f06e9cda0e3cb51163bb0eddc4ad9"]],"lastModifiedTimes":[]}}]

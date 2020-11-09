@@ -1,0 +1,1 @@
+scalac -bootclasspath /home/keyzd/.sbt/boot/scala-2.12.10/lib/scala-library.jar -classpath /home/keyzd/dev/learn/scala/naumen.scala.course.2020.autumn/homeworks/homework_5/target/scala-2.12/classes /home/keyzd/dev/learn/scala/naumen.scala.course.2020.autumn/homeworks/homework_5/src/main/scala/Exercises.scala
