@@ -26,10 +26,10 @@ object Exercises {
 
   def morse(text: String): String = {
 	  text.map(c =>
-	  			if(c.isLetter) " "+MORSE(c.toUpper.toString)
-				else if(c.isSpaceChar) " "+c
-				else c
-			  ).mkString.substring(1)
+			if(c.isLetter) " "+MORSE(c.toUpper.toString)
+			else if(c.isSpaceChar) " "+c
+			else c
+		).mkString.substring(1)
   }
 
   def wordReverse(text: String): String = {
